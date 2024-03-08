@@ -76,12 +76,12 @@ const App = () => {
             justifyContent: "space-between",
           }}
         >
-          <Flex align={"middle"}>
+          <Flex align={"middle"} id="header">
             <Text strong style={{ color: "white", fontSize: 22 }}>
               Docx to HTML
             </Text>
           </Flex>
-          <Flex align={"middle"}>
+          <Flex align={"middle"} id="reset">
             <Tooltip placement="left" title={"Reset page"}>
               <RedoOutlined
                 style={{ color: "white", fontSize: "large" }}
